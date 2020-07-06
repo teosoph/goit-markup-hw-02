@@ -1,3 +1,16 @@
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+.hover:hover,
+.focus:focus {
+  color: #2196f3;
+}
+
 body {
   background-color: #ffffff;
   font-family: "Roboto";
@@ -5,24 +18,55 @@ body {
   color: #212121;
 }
 
+/* header styles */
+
 .navigation-list-link {
-font-weight: 500;
-font-size: 14px;
-line-height: 0.87;
-letter-spacing: 0.02em;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header-address-email,
+.header-address-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.875;
+  letter-spacing: 0.02em;
+  color: #757575;
+  font-style: normal;
 }
 
-.navigation-list-link:hover {
+/* main-hero */
 
-    color: #2196F3;
-}
-
-
-.button-section-1 {
-  font-family: Roboto;
+main {
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 26px;
+  line-height: 0.615;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: #212121;
 }
-.na
+
+.buttons-item {
+}
+
+.projects-list-item-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 0.5;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.projects-list-item-type {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}

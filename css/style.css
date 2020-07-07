@@ -123,6 +123,10 @@ footer {
   color: #ffffff;
 }
 
+.footer-connection-input {
+  margin: auto;
+}
+
 .footer-button-tosign {
   /* position: absolute; */
   width: 200px;

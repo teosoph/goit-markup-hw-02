@@ -9,80 +9,87 @@
 </head>
 
 <body>
-    <header>
-        <nav>
+    <header class="header">
+        <nav class="navigation">
             <!-- logo -->
-            <a href="./index.html" aria-label="Логотип">
-                <img src="./images/header/webstudio.svg" alt="Логотип" />
+            <a class="logo" href="./index.html" aria-label="Логотип">
+                <img class="logo-img" src="./images/header/webstudio.svg" alt="Логотип" />
             </a>
-
+    
             <!-- Меню навигации -->
-            <ul>
-                <li>
-                    <a href="">Студия</a>
+    
+            <ul class="navigation-list list">
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link hover focus" href="">Студия</a>
                 </li>
-                <li>
-                    <a href="">Портфолио</a>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link hover focus" href="">Портфолио</a>
                 </li>
-                <li>
-                    <a href="">Контакты</a>
+                <li class="navigation-list-item">
+                    <a class="navigation-list-link link hover focus" href="">Контакты</a>
                 </li>
             </ul>
         </nav>
-
+    
         <!-- контакты -->
-        <address>
-            <ul>
-                <li><a href="mailto:">info@devstudio.com</a></li>
-                <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    
+        <address class="header-address">
+            <ul class="header-address-list list">
+                <li>
+                    <a class="header-address-email link hover focus" href="mailto:">info@devstudio.com</a>
+                </li>
+                <li>
+                    <a class="header-address-tel link hover focus" href="tel:+380961111111">+38 096 111 11 11</a>
+                </li>
             </ul>
         </address>
     </header>
 
     <main>
         <!--  Section 1 (HERO) -->
-        <section>
-            <h1>Эффективные решения для вашего бизнеса</h1>
-            <button>Заказать услугу</button>
+        <section class="main-hero" >
+            <img class="main-hero-img" src="./images/main/img overlay.jpg" alt="overlay">
+            <h1 class="main-hero-title" >Эффективные решения для вашего бизнеса</h1>
+            <button class="main-hero-button" >Заказать услугу</button>
         </section>
 
         <!-- Section 2 -->
-        <section>
-            <ul>
-                <!-- 1 -->
-                <li>
+        <section class="main-merits" >
+            <ul class="main-merits-list">
+                <!-- item_1 -->
+                <li class="main-merits-list-item">
                     <img src="./images/main/section-2/antenna.svg" alt="Внимание к деталям" />
-                    <h3>Внимание к деталям</h3>
-                    <p>
+                    <h3 class="main-merits-list-item-title">Внимание к деталям</h3>
+                    <p class="main-merits-list-item-description">
                         Идейные соображения, а также начало повседневной работы по
                         формированию позиции.
                     </p>
                 </li>
-                <!-- 2 -->
-                <li>
+                <!-- item_2 -->
+                <li class="main-merits-list-item">
                     <img src="./images/main/section-2/Vector.svg" alt="Пунктуальность" />
-                    <h3>Пунктуальность</h3>
-                    <p>
+                    <h3 class="main-merits-list-item-title">Пунктуальность</h3>
+                    <p class="main-merits-list-item-description">
                         Задача организации, в особенности же рамки и место обучения кадров
                         влечет за собой.
                     </p>
                 </li>
-                <!-- 3 -->
-                <li>
+                <!-- item_3 -->
+                <li class="main-merits-list-item">
                     <img src="./images/main/section-2/diagram.svg" alt="Планирование" />
 
-                    <h3>Планирование</h3>
-                    <p>
+                    <h3 class="main-merits-list-item-title">Планирование</h3>
+                    <p  class="main-merits-list-item-description">
                         Равным образом консультация с широким активом в значительной
                         степени обуславливает.
                     </p>
-                </li>
-                <!-- 4 -->
+                </li class="main-merits-list-item">
+                <!-- item_4 -->
                 <li>
                     <img src="./images/main/section-2/astronaut.svg" alt="Современные технологии" />
 
-                    <h3>Современные технологии</h3>
-                    <p>
+                    <h3 class="main-merits-list-item-title">Современные технологии</h3>
+                    <p class="main-merits-list-item-description">
                         Значимость этих проблем настолько очевидна, что реализация
                         плановых заданий.
                     </p>
@@ -91,134 +98,140 @@
         </section>
 
         <!-- Section 3 -->
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-            <li>
-                <img src="./images/main/section-3/box-1.jpg" alt="" /></a>
-                <p>Десктопные приложения</p>
-            </li>
+        <section class="main-doings">
 
-            <li>
-                <img src="./images/main/section-3/box-2.jpg" alt="" /></a>
-                <p>Мобильные приложения</p>
-            </li>
+            <h2 class="main-doings-title" >Чем мы занимаемся</h2>
+            <ul class="main-doings-list">
+                <li class="main-doings-list-item">
+                    <img src="./images/main/section-3/box-1.jpg" alt="" /></a>
+                    <p class="main-doings-list-title">Десктопные приложения</p>
+                </li>
+                
+                <li>
+                    <img src="./images/main/section-3/box-2.jpg" alt="" /></a>
+                    <p class="main-doings-list-title">Мобильные приложения</p>
+                </li>
+                
+                <li>
+                    <img src="./images/main/section-3/box-3.jpg" alt="" /></a>
+                    <p class="main-doings-list-title">Дизайнерские решения</p>
+                </li>
+            </ul>
+        </section>
+            
+            <!-- section 4 -->
+            <section class="main-team">
 
-            <li>
-                <img src="./images/main/section-3/box-3.jpg" alt="" /></a>
-                <p>Дизайнерские решения</p>
-            </li>
-        </ul>
 
-        <!-- section 4 -->
-        <h2>Наша команда</h2>
-
-        <ul>
-            <!-- teammate 1 -->
-            <li>
-                <img src="./images/main/section-4/img.jpg" alt="" />
-                <h3>Николай Кучеренко</h3>
-                <p>Product Designer</p>
-                <ul>
-                    <li>
-                        <img src="./images/main/section-4/instagram.svg" alt="instagram" />
-                        <a href="" aria-label="Instagram icon"></a>
-                    </li>
-
-                    <li>
-                        <img src="./images/main/section-4/twiter.svg" alt="twiter" />
-                        <a href="" aria-label="twiter icon"></a>
-                    </li>
-
-                    <li>
+                <h2 class="main-team-title">Наша команда</h2>
+                
+                <ul class="main-team-list">
+                    <!-- teammate 1 -->
+                    <li class="main-team-list-teammate">
+                        <img src="./images/main/section-4/img.jpg" alt="" />
+                        <h3 class="main-team-list-teammate-title">Николай Кучеренко</h3>
+                        <p class="main-team-list-teammate-position">Product Designer</p>
+                        <ul>
+                            <li>
+                                <img src="./images/main/section-4/instagram.svg" alt="instagram" />
+                                <a href="" aria-label="Instagram icon"></a>
+                            </li>
+                            
+                            <li>
+                                <img src="./images/main/section-4/twiter.svg" alt="twiter" />
+                                <a href="" aria-label="twiter icon"></a>
+                            </li>
+                            
+                            <li>
                         <img src="./images/main/section-4/facebook.svg" alt="facebook" />
                         <a href="" aria-label="facebook icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/Linkedin.svg" alt="linkedin" />
                         <a href="" aria-label="linkedin icon"></a>
                     </li>
                 </ul>
             </li>
-
+            
             <!-- teammate 2 -->
-            <li>
+            <li class="main-team-list-teammate">
                 <img src="./images/main/section-4/img(2).jpg" alt="" />
-                <h3>Ольга Иванова</h3>
-                <p>Frontend Developer</p>
+                <h3 class="main-team-list-teammate-title">Ольга Иванова</h3>
+                <p class="main-team-list-teammate-position">Frontend Developer</p>
                 <ul>
                     <li>
                         <img src="./images/main/section-4/instagram.svg" alt="instagram" />
                         <a href="" aria-label="Instagram icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/twiter.svg" alt="twiter" />
                         <a href="" aria-label="twiter icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/facebook.svg" alt="facebook" />
                         <a href="" aria-label="facebook icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/Linkedin.svg" alt="linkedin" />
                         <a href="" aria-label="linkedin icon"></a>
                     </li>
                 </ul>
             </li>
-
+            
             <!-- teammate 3 -->
-            <li>
+            <li class="main-team-list-teammate">
                 <img src="./images/main/section-4/img(1).jpg" alt="" />
-                <h3>Андрей Шевченко</h3>
-                <p>Marketing</p>
+                <h3 class="main-team-list-teammate-title">Андрей Шевченко</h3>
+                <p class="main-team-list-teammate-position">Marketing</p>
                 <ul>
                     <li>
                         <img src="./images/main/section-4/instagram.svg" alt="instagram" />
                         <a href="" aria-label="Instagram icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/twiter.svg" alt="twiter" />
                         <a href="" aria-label="twiter icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/facebook.svg" alt="facebook" />
                         <a href="" aria-label="facebook icon"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/Linkedin.svg" alt="linkedin" />
                         <a href="" aria-label="linkedin icon"></a>
                     </li>
                 </ul>
             </li>
-
+            
             <!-- teammate 4 -->
-
-            <li>
+            
+            <li class="main-team-list-teammate">
                 <img src="./images/main/section-4/img(3).jpg" alt="" />
-                <h3>Иван Николаев</h3>
-                <p>UI Designer</p>
+                <h3 class="main-team-list-teammate-title">Иван Николаев</h3>
+                <p class="main-team-list-teammate-position">UI Designer</p>
                 <ul>
                     <li>
                         <img src="./images/main/section-4/instagram.svg" alt="instagram" />
                         <a href="" aria-label="Instagram"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/twiter.svg" alt="twiter" />
                         <a href="" aria-label="twiter"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/facebook.svg" alt="facebook" />
                         <a href="" aria-label="facebook"></a>
                     </li>
-
+                    
                     <li>
                         <img src="./images/main/section-4/Linkedin.svg" alt="linkedin" />
                         <a href="" aria-label="linkedin"></a>
@@ -226,15 +239,16 @@
                 </ul>
             </li>
         </ul>
-
+    </section>
+        
         <!-- section-5 -->
         <h2>Постоянные клиенты</h2>
-
+        
         <ul>
             <li>
                 <img src="./images/main/section-5/Client-1.png" alt="Client-1" />
             </li>
-
+            
             <li>
                 <img src="./images/main/section-5/Client-2.svg" alt="Client-2" />
             </li>
@@ -254,47 +268,64 @@
     </main>
 
     <!-- footer -->
-    <footer>
-        <div>
-            <img src="./images/footer/webstudio.svg" alt="Logo webstudio" />
-            <address>
+    <footer class="footer">
+        <div class="footer-contacts">
+            <img class="footer-contacts-logo" src="./images/footer/webstudio.svg" alt="Logo webstudio" />
+            <!-- footer-address -->
+            <address class="footer-contacts-address">
                 г. Киев, пр-т Леси Украинки, 26
-
-                <ul>
-                    <li><a href="mailto:">info@devstudio.com</a></li>
-                    <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    
+                <ul class="footer-contacts-address-list list">
+                    <!-- footer-email -->
+                    <li class="footer-contacts-email">
+                        <a class="footer-contacts-email-link link" href="mailto:">info@devstudio.com</a>
+                    </li>
+                    <!-- footer-tel -->
+                    <li class="footer-contacts-tel">
+                        <a class="footer-contacts-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+                    </li>
                 </ul>
             </address>
         </div>
-        <div>
-            <b> Присоединяйтесь </b>
-
-            <ul>
-                <li>
-                    <img src="./images/main/section-4/instagram.svg" alt="instagram" />
-                    <a href="" aria-label="Instagram icon"></a>
+    
+        <!-- foorter-connections -->
+        <div class="footer-connections">
+            <!-- foorter-connections-title -->
+            <b class="footer-connections-title-1"> Присоединяйтесь </b>
+    
+            <ul class="footer-connections-socials list">
+                <li class="footer-connections-socials-instagram">
+                    <img class="footer-connections-socials-instagram-img" src="./images/main/section-4/instagram.svg"
+                        alt="instagram" />
+                    <a class="footer-connections-socials-instagram-link" href="" aria-label="Instagram icon"></a>
                 </li>
-
-                <li>
-                    <img src="./images/main/section-4/twiter.svg" alt="twiter" />
-                    <a href="" aria-label="twiter icon"></a>
+    
+                <li class="footer-connections-socials-twiter">
+                    <img class="footer-connections-socials-twiter-img" src="./images/main/section-4/twiter.svg"
+                        alt="twiter" />
+                    <a class="footer-connections-socials-twiter-link" href="" aria-label="twiter icon"></a>
                 </li>
-
-                <li>
-                    <img src="./images/main/section-4/facebook.svg" alt="facebook" />
-                    <a href="" aria-label="facebook icon"></a>
+    
+                <li class="footer-connections-socials-facebook">
+                    <img class="footer-connections-socials-facebook-img" src="./images/main/section-4/facebook.svg"
+                        alt="facebook" />
+                    <a class="footer-connections-socials-facebook-link" href="" aria-label="facebook icon"></a>
                 </li>
-
-                <li>
-                    <img src="./images/main/section-4/Linkedin.svg" alt="linkedin" />
-                    <a href="" aria-label="linkedin icon"></a>
+    
+                <li class="footer-connections-socials-linkedin">
+                    <img class="footer-connections-socials-linkedin-img" src="./images/main/section-4/Linkedin.svg"
+                        alt="linkedin" />
+                    <a class="footer-connections-socials-linkedin-link" href="" aria-label="linkedin icon"></a>
                 </li>
             </ul>
         </div>
-
-        <b>Подпишитесь на рассылку</b>
-        <input lang="en" type="text" />
-        <button>Подписаться</button>
+    
+        <b class="footer-connections-title-2">Подпишитесь на рассылку</b>
+        <input class="footer-connection-input" lang="en" type="text" />
+        <button class="footer-button-tosign">
+            Подписаться
+            <img src="./images/footer/icon send.svg" alt="icon-send" />
+        </button>
     </footer>
 </body>
 

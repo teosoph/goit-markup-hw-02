@@ -1,4 +1,9 @@
 :root {
+  /* header */
+  --logo-text: "Raleway";
+  --logo-color-1: #2196F3 ;
+  --logo-color-2: #000000 ;
+  
   /* main */
   --main-font: "Roboto";
   --main-font-color: #212121;
@@ -40,25 +45,25 @@ body {
 /* header styles */
 
 .logo-1{
-font-family: Raleway;
+font-family: var(--logo-text);
 font-style: normal;
 font-weight: bold;
 text-transform: capitalize;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #2196F3;
+color: var(--logo-color-1);
 }
 
 .logo-2{
-font-family: Raleway;
+font-family: var(--logo-text);
 font-style: normal;
 font-weight: bold;
 text-transform: capitalize;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: #000000;
+color: var(--logo-color-2);
 }
 
 .navigation-list-link {

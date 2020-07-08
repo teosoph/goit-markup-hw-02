@@ -1,8 +1,7 @@
 :root {
   /* header */
   --logo-text: "Raleway";
-  --logo-color-1: #2196F3 ;
-  --logo-color-2: #000000 ;
+  --logo-color: #000000 ;
   
   /* main */
   --main-font: "Roboto";
@@ -52,7 +51,7 @@ text-transform: capitalize;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: var(--logo-color-1);
+color: var(--logo-color);
 }
 
 .logo-2{
@@ -63,7 +62,7 @@ text-transform: capitalize;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: var(--logo-color-2);
+color: var(--logo-color);
 }
 
 .navigation-list-link {

@@ -1,7 +1,9 @@
 :root {
   /* header */
   --logo-text: "Raleway";
-  --logo-color: #000000 ;
+  --logo-color-1: #000000 ;
+    --logo-color-2: #ffffff ;
+
   
   /* main */
   --main-font: "Roboto";
@@ -51,7 +53,7 @@ text-transform: capitalize;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: var(--logo-color);
+color: var(--logo-color-1);
 }
 
 .logo-2{
@@ -62,7 +64,28 @@ text-transform: capitalize;
 font-size: 26px;
 line-height: 31px;
 letter-spacing: 0.03em;
-color: var(--logo-color);
+color: var(--logo-color-1);
+}
+.logo-2-1{
+font-family: var(--logo-text);
+font-style: normal;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--logo-color-2);
+}
+
+.logo-2-2{
+font-family: var(--logo-text);
+font-style: normal;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: var(--logo-color-2);
 }
 
 .navigation-list-link {
@@ -142,7 +165,7 @@ main {
   letter-spacing: 0.03em;
   color: var(--description-text-color);
 }
-.main-doings-title {
+.main-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 42px;
@@ -162,15 +185,6 @@ main {
   /* color: #ffffff; */
 }
 
-.main-team-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-color);
-}
-
 /* team section */
 .main-team-list-teammate-title {
   font-weight: 500;
@@ -187,14 +201,6 @@ main {
   /* text-align: center; */
   letter-spacing: 0.03em;
   color: var(--description-text-color);
-}
-.main-clients-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  /* text-align: center; */
-  letter-spacing: 0.03em;
-  color: var(--title-color);
 }
 
 .projects-list-item-title {

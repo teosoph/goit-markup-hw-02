@@ -1,3 +1,21 @@
+:root {
+  /* main */
+  --main-font: "Roboto";
+  --main-font-color: #212121;
+  --main-background-color: #ffffff;
+/* menu */
+  --header-menu-title-color:  #212121;
+  --header-menu-address-color: #757575;
+/* hero */
+  --hero-title-color:  #FFFFFF;
+  --title-color: #212121;
+  --description-text-color: #757575;
+/* footer */
+  --footer-address-text-color: color: rgba(255, 255, 255, 0.6);
+/* hover */
+  --accent-color: #2196f3;
+}
+
 .link {
   text-decoration: none;
 }
@@ -8,14 +26,14 @@
 
 .hover:hover,
 .focus:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 body {
-  background-color: #ffffff;
-  font-family: "Roboto";
+  background-color: var(--main-background-color);
+  font-family: var(--main-font);
   font-size: 16px;
-  color: #212121;
+  color: var(--main-font-color);
 }
 
 /* header styles */
@@ -25,7 +43,7 @@ body {
   font-size: 14px;
   line-height: 0.87;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--header-menu-title-color);
 }
 .header-address-email,
 .header-address-tel {
@@ -167,7 +185,7 @@ main {
   color: #212121;
 }
 .projects-list-item-type {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -186,7 +204,7 @@ footer {
   background: #2f303a;
 }
 .footer-contacts-address {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -197,7 +215,7 @@ footer {
 
 .footer-contacts-email-link,
 .footer-contacts-tel {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -207,7 +225,7 @@ footer {
 }
 
 .footer-connections-title-1 {
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -219,7 +237,7 @@ footer {
 
 .footer-connections-title-2 {
   margin-left: 20px;
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 14px;
@@ -245,7 +263,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 
-  font-family: Roboto;
+  font-family: var(--main-font);
   font-style: normal;
   font-weight: bold;
   font-size: 16px;

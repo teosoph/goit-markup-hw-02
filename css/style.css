@@ -11,6 +11,7 @@
   --title-color: #212121;
   --description-text-color: #757575;
 /* footer */
+  --footer-conection-text-color: color: #FFFFFF;
   --footer-address-text-color: color: rgba(255, 255, 255, 0.6);
 /* hover */
   --accent-color: #2196f3;
@@ -51,7 +52,7 @@ body {
   font-size: 14px;
   line-height: 0.875;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--header-menu-address-color);
   font-style: normal;
 }
 
@@ -62,7 +63,7 @@ main {
   font-weight: 500;
   line-height: 0.615;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--main-font-color);
 }
 
 .main-hero-title {
@@ -113,7 +114,7 @@ main {
   font-size: 14px;
   line-height: 0.583;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 .main-doings-title {
   font-weight: bold;
@@ -121,7 +122,7 @@ main {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--title-color);
 }
 
 .main-doings-list-title {
@@ -141,8 +142,7 @@ main {
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--title-color);
 }
 
 /* team section */
@@ -150,21 +150,17 @@ main {
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
-
   /* text-align: center; */
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--title-color);
 }
 .main-team-list-teammate-position {
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-
   /* text-align: center; */
   letter-spacing: 0.03em;
-
-  color: #757575;
+  color: var(--description-text-color);
 }
 .main-clients-title {
   font-weight: bold;
@@ -172,8 +168,7 @@ main {
   line-height: 42px;
   /* text-align: center; */
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: var(--title-color);
 }
 
 .projects-list-item-title {
@@ -182,7 +177,7 @@ main {
   font-size: 18px;
   line-height: 0.5;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--title-color);
 }
 .projects-list-item-type {
   font-family: var(--main-font);
@@ -191,7 +186,7 @@ main {
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--description-text-color);
 }
 
 footer {
@@ -232,7 +227,7 @@ footer {
   line-height: 0.875;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--footer-conection-text-color);
 }
 
 .footer-connections-title-2 {
@@ -244,8 +239,7 @@ footer {
   line-height: 16px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  color: #ffffff;
+  color: var(--footer-conection-text-color);
 }
 
 .footer-connection-input {

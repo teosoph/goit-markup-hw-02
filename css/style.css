@@ -147,6 +147,18 @@ main {
 
   color: #ffffff;
 }
+.main-filter-list-item-button{
+  font-family: var(--main-font);
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+
+/* identical to box height, or 162% */
+text-align: center;
+letter-spacing: 0.03em;
+
+color: var(--main-font-color);
+}
 
 /*  Section 2  */
 .main-merits-list-item-title {
@@ -230,6 +242,7 @@ footer {
   top: 1628px;
   background: #2f303a;
 }
+
 .footer-contacts-address {
   font-family: var(--main-font);
   font-style: normal;

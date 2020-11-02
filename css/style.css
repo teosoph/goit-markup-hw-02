@@ -600,7 +600,7 @@ main {
 footer {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 
   max-width: 1600px;
   padding-left: 214px;
@@ -614,7 +614,7 @@ footer {
 footer .container {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
 }
 
 .footer-logo {
@@ -777,6 +777,8 @@ footer .container {
   align-items: center;
 
   padding-left: 10px;
+
+  display: none;
 }
 .footer-button-tosign p {
   margin-right: 10px;
